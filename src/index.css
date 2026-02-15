@@ -5,22 +5,35 @@
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 } */
-
-h1 {
-    font-family: "Martian Mono", monospace;
-    font-weight: 700;
-}
-
-
-.martian-mono {
-  font-family: "Martian Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 600;
+@font-face {
+  font-family: 'MartianMono';
+  src: url('./assets/fonts/Martian_Mono/static/MartianMono-Bold.ttf') format('truetype');
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
+@font-face {
+  font-family: 'MartianMono2';
+  src: url('./assets/fonts/Martian_Mono/static/MartianMono-SemiBold.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MartianMono3';
+  src: url('./assets/fonts/Martian_Mono/static/MartianMono-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraCode';
+  src: url('./assets/fonts/Fira_Code/static/FiraCode-SemiBold.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter/static/Inter_18pt-Regular.ttf') format('truetype');
+  font-style: normal;
+}
 body {
   /* border: 2px solid red; */
   margin: 0;
